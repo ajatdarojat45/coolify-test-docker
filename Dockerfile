@@ -14,8 +14,6 @@ RUN npm install -g nodemon
 
 RUN npm install sequelize-cli
 
-RUN npm run db_create
-
 RUN npm run db_migrate
 
 RUN npm run db_seed
