@@ -7,9 +7,9 @@
     "start": "node app.js",
     "dev": "npx nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "db_create": "npx sequelize-cli db:create",
-    "db_migrate": "npx sequelize-cli db:migrate",
-    "db_seed": "npx sequelize-cli db:seed:all"
+    "db_create": "sequelize db:create",
+    "db_migrate": "sequelize db:migrate",
+    "db_seed": "sequelize db:seed:all"
   },
   "keywords": [],
   "author": "",
