@@ -12,10 +12,10 @@ COPY ./ ./
 
 RUN npm install -g nodemon
 
-CMD [ "npm", "run", "db_create"]
+RUN npm run db_create
 
-CMD [ "npm", "run", "db_migrate" ]
+RUN npm run db_migrate
 
-CMD [ "npm", "run", "db_seed"]
+RUN npm run db_seed
 
 CMD [ "npm", "run", "start" ]
